@@ -12,6 +12,7 @@ public class Order {
 	private Instant moment;
 	private  OrderStatus status;
 	
+//	Composition of objects
 	private List<Product> products = new ArrayList<>();
 	
 
